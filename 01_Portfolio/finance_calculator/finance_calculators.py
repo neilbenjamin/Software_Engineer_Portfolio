@@ -8,11 +8,11 @@ import math
 
 print("""
 investment - to calculate the amount of interest you'll earn on your investment
-bond       - to calculate the amount you'll have to pay on your home loan      
+bond       - to calculate the amount you'll have to pay on your home loan
 """)
 
 user_input = input("Enter either 'investment' or 'bond' from the menu above "
-                    "to proceed: ").upper()
+                   "to proceed: ").upper()
 
 # Error return
 # if user_input != "INVESTMENT" and user_input != "BOND":
@@ -31,35 +31,34 @@ if user_input == ("INVESTMENT"):
     interest = interest_type
     if interest == "SIMPLE":
         # Values
-        r = interest_rate / 100        
+        r = interest_rate / 100
         P = deposit_amount
         t = num_years
         # computation
-        A = P *(1 + r*t)
+        A = P * (1 + r*t)
         total_interest = A
         print(f"""
               Your initial deposit of {P:,.2f};
               with an interest rate of: {r};
-              Invested for {t:.2f} years with {interest} interest will 
+              Invested for {t:.2f} years with {interest} interest will
               total R {total_interest:,.2f}
             """)
     elif interest == "COMPOUND":
         # Values
-        r = interest_rate / 100        
+        r = interest_rate / 100
         P = deposit_amount
         t = num_years
         # computation
-        A = P * math.pow((1+r),t)
+        A = P * math.pow((1+r), t)
         total_interest = A
         print(f"""
               Your initial deposit of {P:,.2f};
               with an interest rate of: {r};
-              Invested for {t} years with {interest} interest will 
+              Invested for {t} years with {interest} interest will
               total R {total_interest:,.2f}
             """)
     else:
         print("Please only choose either 'Compound' or 'Simple'")
-
 #  Node 2
 #  Bond Output
 elif user_input == "BOND":
