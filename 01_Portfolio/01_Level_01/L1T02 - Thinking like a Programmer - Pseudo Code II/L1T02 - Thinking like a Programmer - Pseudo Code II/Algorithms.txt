@@ -1,0 +1,16 @@
+First name algorithm
+
+Request that the user inputs their name;
+Store the user's input in a variable called first_name;
+Access the variable and print out the variable first_name and the text " + "Hello, World".
+If the user's name is Sally, it should translate to 'Sally, Hello World".
+
+Age algorithm   
+
+Request the user to enter their age;
+Store the user's input in a variable called "age"
+If the user's age is equal to or greater than 18, print out "You're old enough";
+If the user's age is equal to and greater than 16 and smaller than 18, print out "Almost there";
+If the user's age is smaller than and not equal to 16, print out "you're just too young".
+In each evaluation the output will reference the age variable to determine the correct output.
+

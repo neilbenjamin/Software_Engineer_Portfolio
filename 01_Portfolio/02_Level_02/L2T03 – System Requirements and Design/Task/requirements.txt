@@ -1,0 +1,54 @@
+Task 1 Question 1 - Requirements Statement
+
+*   The first omission is that the user is not being prompted to either log in 
+    or create a user profile. Creating a database of the user is vital for 
+    unctionality and for security.
+*   I would also ensure that there is double authentication enabled via a 
+    user confirmation input via email or sms with an OTP for added securty.
+*   The ambiguity of adding a personal identifoer can be eliminated by having 
+    the initial user log in process implimented before the process begins. This
+    will ensure that the user data and user authenticity is correct and done 
+    at teh initial level.
+*   Once the credit card has been authentocatedn and approved, sending a 
+    message of confirmation would be necessary to confirm that the transaction 
+    has taken place, it has been successful and the ticket is booked and 
+    confirmed.
+*   I would also add ticket issuance directly to email as well as making a 
+    copy of the ticket availble on the application redeemable through a QR 
+    code or barcode mechanism. 
+
+Task 1 Question 2 - Non Functional Overview
+
+Useability
+
+I would ensure that the log in and order confirmations are working effectively
+and relayed back to the user's email/cellphone for 2-step authentication
+and order confirmation and redemption. 
+
+Reliability
+
+If for whatever reason the user gets disconnected from the application, it
+needs to have a fail-safe built in to communocate the status of the 
+transaction back to the user, to alleviate concern and provide clarity for 
+continuining with the process once they are back online. 
+
+Security
+
+Ensure that all the transactions are encrypted and that the necessary web 
+protocols are followed if used, to ensure that sensitive data is kept safe 
+and that the database is always secure and backed up in real-time.
+
+Design Constraints
+
+Making sure that the software is compatible with all devices and testing the 
+UI accordingly. Regulary pushing updates for users to update to newer versions
+and constantly testing the updates. 
+
+Interface Requirements
+
+Similar approach to design constraints, but focussing more on devoce specific 
+challenges. 
+
+Supporting Requirements
+
+Ensuring that the application is easy to find and install.

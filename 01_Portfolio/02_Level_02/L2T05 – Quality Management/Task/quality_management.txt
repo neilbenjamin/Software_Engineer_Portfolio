@@ -1,0 +1,82 @@
+Quality Management Tasks
+
+Question 1 
+
+1.1. - Mobile Game Application
+
+All of the mentioned quality standards can be observed in this application, 
+however I think that the following would rank higher:
+
+*   Resilience (encapsulating elements of resilience and reliability)
+*   Security (encapsulating elements of safety for younger users)
+*   Understandability (encapsulating elements of learnability & useability)
+*   Modularity (encapsulating elements of testability & adaptability)
+
+1.2 - Banking Application
+
+Here, efficiency, reliability and security would score higher on the quality 
+index.
+
+*   Security
+*   Safety
+*   Efficiency
+*   Reliability (encapsulating elements of resilience & robustness)
+*   Portability
+
+1.3. - Medical Organization Database
+
+Again, security and reliability would be prioritized along with modularity
+and testability
+
+* Security
+* Resilience
+* testability
+* Modularity
+* Reusability 
+* Efficiency
+
+Question 2
+
+High-Quality Software process should lead to high quality software, mainly for 
+the following reasons:
+
+Through the software development cycle, the quality management (QM) team 
+will employ various processes to ensure that the software exceeds the 
+quality expectations of the end user by following an extensive planning 
+system using 
+
+    * Product introduction - to determine the product and it's 
+    intended market, 
+    * Product plans - to determine release dates and distribution plans
+    * Descriptions - Overview of the product development process
+    * Goals - Determining the quality goals of the the product
+    * Risks - Assessing potential risks.
+
+This planning in conjunction with determining which elements of the 
+requirements process are most vital and utilizing measurements and metrics to 
+evaluate the progress of the software. all contribute to a product of high 
+quality. 
+Errors that occur could be due to non-functional requirements such as reading 
+the metrics incorrectly and making decisions based off metric numbers instead 
+of market trends. Pairing the software with the correct end user is also 
+important to ensure that the efficacy of the product is maximized by the
+the end user. Furthermore, not correctly pinpointing the most valuable 
+requirements when assessing the external and internal attributes could lead to 
+oversight in correctly positioning the plan to the developers.
+
+Question 3 
+
+Two heads are always better than one, and having multiple walk-throughs 
+of each component by a neutral tea, will invariable bring to light errors that
+have not been picked up in isolation, For example, if the programmers where 
+split into modular units to design components independently, the components
+may operate perfectly in isolation but when connected to the rest of the
+system, issues will arise with compatibility etc...
+
+Question 4
+
+Often, the requirements metrics are decide by the programmer, based off their 
+personal experience, which may be limited or too specific and not relatable to 
+the current project at hand. Therefore, focussing on the wrong requirements 
+modules may result in code being over complex or not specific to the larger
+scope of the programme.

@@ -1,0 +1,41 @@
+/* Hover link */
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-text {
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hover-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Hide label */
+.form-label {
+  display: none;
+}
+
+/* Image Fade */
+.img-hover {
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.img-hover:hover {
+  opacity: 1;
+}

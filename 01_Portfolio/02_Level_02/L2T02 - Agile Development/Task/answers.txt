@@ -1,0 +1,65 @@
+Agile task
+
+Question 1.
+
+It differs greatly in that it is essentially the incremental development 
+model whereby the production and design of the software is in state of
+rapid turn-around development-test-deployment-feedback/review cycle known as 
+a 'sprint' which usually take between 2 to 3 weeks per sprint. 
+
+Question 2.
+
+* Individuals and interactions over processes and tools
+
+    Not listening to the client or the end user's input and rather referring to the 
+    logic n the code. Where the code or application may eb 100% operational, it does
+    not mean it's useful to the end-user.
+
+* Working software over comprehensive documentation
+
+    Documentation can get outdated quicker than the code it is trying to 
+    document. The code may also take on a completely different angle or strategy
+    rendering the document completely useless. The code takes priority over 
+    the paperwork. 
+
+
+* Customer Collaboration over Contract Negotiation
+
+    If a software company focusses on teh agreement between the client and company 
+    more than the job at hand i.e. the agreement states that the company will review
+    and update the software package quarterly =when teh client has in reality picked
+    up on changes and adaptations that need to happen sooner.
+
+* Responding to change over following a plan
+
+    Initially, the plan was to buy x amount of iPhones. The the tariffs were 
+    increased, meaning we would bankrupt ourselves if we continue. Therefore, we
+    respond to the change in tariffs by amending the plan and instead.
+
+Question 3.
+
+Agile as a concept involves focussing on the core functionalities that meet the 
+requirements of the job at hand, focussing on developing and maximizing a specific 
+software solution to meet the requirement, testing the application, deploying it 
+getting the user feedback and then incorporating the review back into the build, 
+as a 'stripe' cycle,  in a streamlined, efficient and quick turn-around manner. 
+The stripe cycle is then replicated with the changes until eventually all the 
+metrics of the job at hand have been met. 
+
+Question 4.
+
+Different environments have different variables at play that affect the planning
+and development process. The size and scope of use of the software from client
+to client also differs dramatically therefore each application needs to be adjusted 
+or tailored to fit the needs requirements of each client uniquely.
+
+Question 5.
+
+Testing is important for obvious reasons, the application needs to work. More so,
+it helps us understand where the problem is. In a large application, with many 
+different units or modules, not knowing where the problem is can cause serious
+problems and render the entire application useless. Furthermore, it allows us 
+to understand the specification of each unit or module and and thus, the tests 
+for each module and what we are trying to achieve, or what teh desired outcome 
+is for each test, so that we can implement real world scenarios into each test
+and assess whether or not the unit is working.

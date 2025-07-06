@@ -1,0 +1,36 @@
+Answers to for the database task.
+Solutions courtesy of Google, geeksforgeeks, Vertabelo, YouTube and needed
+additional assistance with a mentor call. Challenging task. 
+
+Question 1 - What is normalization 
+
+Normalization is a process used to analyse a table and the structure 
+thereof to reduce redundancies and eliminate anomalies by restructuring the 
+tables to fit with the 1NF, 2NF and 3NF methodologies or methods.
+
+Question 2 - When is a table in NF1 state?
+
+*   When each attribute is atomic, or, non-divisible, or where there is just 
+    one attribute in each cell.
+*   When there is either a singular primary attribute that defines all the 
+    other non-primary attributes, know as a Primary Key or when 2 or more 
+    attributes are identified as being the Primary Key on which all the other 
+    attributes depend on, then the Primary Key is know as a Composite Key.
+*   When there are no repeating groups in the table.
+*   When all attributes are dependent on the Primary Key. 
+
+Question 3 - When is a table in NF2 state?
+
+*   When it is NF1 state.
+*   When there is no partial dependency from a non primary attribute to a 
+    primary attribute whether singular or composite, but rather to requires 
+    a full dependency to the Primary Key.
+
+Question 4 - When is a table in NF3 state?
+
+*   When it is in NF2 state.
+*   When there are no non-primary attribute dependencies on another non-primary 
+    attributes. The non primary attributes need to be dependent directly on the
+    Primary Key.
+
+Please see attached PDF for diagrams done with draw.io browser model. 

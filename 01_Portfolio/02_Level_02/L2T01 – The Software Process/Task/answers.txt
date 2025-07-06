@@ -1,0 +1,72 @@
+The software process
+
+Question 1
+
+1 A - Anti-lock braking system software model - Waterfall system.
+
+*   Ensuring that each step of the process is completed. This allows for 
+    maximum focus on elements and designs that can impact on the overall
+    safety aspects of the final design.
+*   Unit testing. Allowing for multiple units to be tested independently to 
+    to ensure maximum efficiency and efficacy contributing to the overall
+    performance of the design system. 
+*   Comprehensive pre-planning, needs analysis and documentation and planning
+    blueprints allow for a broad knowledge base that accessible to all 
+    members from various departments on the project.
+*   Create a foundational framework for improvement and future additions and 
+    renditions and updates.
+
+
+1 B - Virtual Reality Software Maintenance - Incremental Development model
+
+*   Because of the creative and fluid characteristics of software design, 
+    virtually any outcome is possible dependent on the requirements of the task
+    at hand. Therefore, a fluid and non-rigid model is required to adapt to 
+    the software design process as the design process proceeds.
+*   As the software updates and changes, so will the requirements to maintain 
+    change, and this model offers the flexibility to incorporate these 
+    incremental additions as they appear and allow for instantaneous updates
+    and inclusions.
+*   Allow for user/client feedback in realtime and subsequent updates and 
+    improvements leading to a fluid and up-to-date system constantly being 
+    tested, evaluated and improved upon. 
+
+1 C - University Account System - Re-use Software Orientated Engineering Model
+
+*   Given that a system exists,  it would be prudent to examine that system 
+    evaluate the pro's and con's compared to the new requirements and assess 
+    the efficacy in adapting and adding to the existing system vs building a new 
+    one from scratch. 
+*   Elements that are in-line with the requirements can be included in the 
+    re-use phase.
+*   Provide familiarity for engineers who worked on the initial version and
+    leverage the framework that has already been established. 
+*   Save resources by adding to an existing design and expedite the production
+    process.
+
+1 D - Interactive Travel Planning Application - Incremental Development model
+
+*   Again, I would opt for the Incremental Development model, mainly because of 
+    the high frequency of constant adaptation required when dealing with
+    various country's amd all their respective laws and policies which change 
+    constantly. 
+*   This would mean that having a system that can adapt would make more sense 
+    than any of the other proposed models. 
+
+Question 2
+
+Business software solutions will invariably have a larger number of users, 
+larger variety of users (managers, admin, accounting, HR, etc...), wider range
+of application requirements (IT, finance, communications, media etc...) as well
+as having their own unique requirements across the board. It would also be 
+important to be able to attain all teh user's real-time feedback to incorporate 
+into the design as the build is being developed and allows for business to 
+continue while the product is being developed.
+
+Question 3 
+
+Firstly to assess the fit of the original design to the new requirements scope
+to see if there are any elements in the current design that will meet the 
+needs of the job at hand. Once that has been established, the current components
+are then adjusted and modified to meet the requirements from the first step to 
+assess if they modification is fulfilling the requirement. 

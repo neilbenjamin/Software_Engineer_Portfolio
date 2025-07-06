@@ -1,0 +1,40 @@
+Answers to HTTP-related questions for Compulsory Task 1.
+Research courtesy of Google, geeksforgeeks. mdn docs, w3schools
+
+Question 1
+
+A protocol is a set of standardized rules that devices follow to communicate 
+and exchange data over a network.
+
+Question 2
+
+HTTP is built on the TCP protocol (Transmission Control Protocol). 
+This is essentially the mechanism that breaks data into packets, 
+routes them across the internet network, ensuring they reach the correct 
+source and unpacking them again. The HTTP relies on the TCP to maintain a 
+reliable connection between the client and the server. 
+
+Question 3
+
+200 OK
+
+Question 4
+
+Stateless protocol means that the requests sent to the server are not in any 
+way related to previous or future requests and are 100% independent from any 
+other requests. 
+No server-side tracking is necessary to store the state and once the request 
+has been received and the appropriate response initiated, the connection is 
+terminated. 
+
+Question 5
+
+text/time - Invalid - Doesn't exist.
+image/jpeg - Valid
+text/javascript - Valid
+image/psd - Invalid
+text/calendar - Valid
+
+Question 6
+
+403 forbidden

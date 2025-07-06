@@ -1,0 +1,38 @@
+body {
+    padding: 1rem;
+}
+
+.main-text{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.work-experience {
+    list-style: none;
+}
+
+ .education-list {
+    list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    color: white;
+    text-decoration: none; 
+}
+
+
+.footer-link:hover,
+.footer-link:active {
+    color: lightgray;
+    text-decoration: none; 
+}
+
+.footer-link {
+    list-style: none;
+}

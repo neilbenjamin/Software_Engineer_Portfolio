@@ -1,0 +1,52 @@
+Database Task - Answers
+
+Question 1
+
+Data - A collection of raw facts like names, telephone numbers or dates etc
+with no coherent meaning unless the data becomes organized or structured.
+Field - A character or a group of characters that have a specific meaning
+and is used to define and store data.
+Record - A logically connected set of one or more fields that describe a 
+person, place or thing. 
+File - A collection of related records. 
+
+Question 2
+
+A DBMS (database management system), software, or a collection of programmes
+which help to manage the database structure, control access to the data stored
+in the database and act as an intermediary between the user and the database.
+The advantages of using a DBMS include:
+
+*   Allowing the database to be shared amongst a multitude of users, acting as 
+    a centralized repository of information for the users. 
+*   More efficient access and sharing of data amongst users
+*   Improved data integration allowing a wide range of different end users to 
+    access the data allowing for a more integrated view of the company's 
+    operations to the end user. 
+*   Data consistency and integrity. Having a centralized repository allows for 
+    data integrity and less scenarios where different instances of the data 
+    are represented.
+*   Quick access for writing and updating the data.
+*   Improved decision making and end-user productivity. Having reliable data 
+    available to an organization equates to informed decision making and and 
+    increases productivity. 
+
+Question 3
+
+Data are unorganized, unstructured elements of raw facts, such as names, 
+telephone numbers for example with no meaning.
+
+Information is when we process the raw data to reveal meaning, or structure it 
+in a way to create coherent and logical value to a certain person, place organization
+thing. 
+
+Question 4
+
+Metadata is essentially data about data, providing information or descriptions 
+about the data or the dataset and may include details such as the author, 
+file size, creation date and keywords.
+
+Question 5
+
+e - 4 records
+f - 5 fields per record

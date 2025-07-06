@@ -1,0 +1,78 @@
+Research source - Google
+
+Real-World Architecture Examples and their benefits
+
+1 - Layered Architecture
+
+E-commerce giant, Amazon, utilizes the layered architecture design 
+mainly because the layers are independent of each other, namely:
+
+*   Presentation layer - The front end module that users interact with;
+*   Business Logic Layer - Manages user and transaction authentication
+*   Persistent Layer - Managing all the other back-end components that 
+    are responsible for the transactions, routing, middleware, stock etc...
+*   Database Layer - Managing the C.R.U.D operations on the the Database
+
+This is a powerful mechanism because it allows to a large degree the elements 
+to be separated, yet connected to each other and offer valuable benefits 
+such as changing and updating components to one layer without taking the 
+entire system off-line. 
+
+2 - Repository Architecture
+
+Popular repository based website, GitHub, is a good example of a real-World
+repository based architecture system, whereby the it provides a central 
+repository (file-system or database, or both) that stores data and allows
+multiple users to interact in a bilateral manner while interacting with the 
+same code base to work on projects together in real-time. 
+
+The main benefits would be the separation of data from the main application 
+to a working environment, to be updated, tested, reviewed, etc, and then 
+incorporated back into the main application with no down time. 
+
+3 - Client-Server Architecture
+
+Facebook, Google and WhatsApp are well know examples of applications that 
+use client-server architecture. Some of the main benefits for using this module
+include:
+*   Scalability - Allowing the business to grow and manage larger requests by 
+    adding more servers
+*   Managing and task specific roles such as front-end use-age managing the 
+    client aspects while the servers manage the back-end requirements such as 
+    databases, orders, processing etc...
+*   Centralized Security and Control. Managing the data from a centralized 
+    server make it easier to control as well as having the security systems 
+    allocated on the server-side, making for more robust and safer security 
+    protocols for teh whole system. Maintenance is also easier
+*   Reliability & Availability means that the load based can be shared with 
+    multiple servers across the globe to ensure that if one server does go 
+    down, it won't affect the system as a whole because the traffic will be 
+    rerouted to another server that's online. 
+
+4 - Pipe & Filter Architecture
+
+Netlix and Adobe are good examples of companies that utilize the pipe & Filter
+architecture model, mainly, because of the number of different processes that
+need to be undertaken before the product/data/software reaches it's final 
+destination/form/client for example, Netlix, source the movie from the 
+company database, into a pipe, then filter it to a format that allows it to be 
+uploaded to a number of servers, then back into the pipe to be yet again 
+filtered to allow it to be decoded and eventually viewed on the device that 
+requested it, like a factory production line where each new addition to the 
+product can be viewed as a filter and the steps between the filters can be 
+viewed as the pipe. This is particularly useful as it allows the company to 
+build as many filters as they need in order to fulfil the end-user's 
+requirements, just not when Mike Tyson is fighting a youTube influencer and 
+streaming it live to the globe...
+
+2 - Combining two models and why this is complimentary
+
+Netflix utilizes both the layered, client/server and pipe & filter models. 
+This works great together because it leverages scalability, security and 
+maintenance from the layered model, serving and storing the resources 
+using the client server model and then managing the stream and it's processes 
+using the pipe & filter model. 
+
+Uber would amongst others, use the layered model and the client-server model
+to leverage the software and computational requirements with the layered model 
+and then managing the user application using the client - server model.

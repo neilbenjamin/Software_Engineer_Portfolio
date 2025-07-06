@@ -1,0 +1,76 @@
+
+/* Hover link */
+.hover-link {
+  color: rgb(195, 195, 195);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hover-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Hide label */
+.form-label {
+  display: none;
+}
+
+/* Image */
+.im1 {
+  background-image: url(./media/strat_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im2 {
+  background-image: url(./media/strat_aqua_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im3 {
+  background-image: url(./media/prs_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im4 {
+  background-image: url(./media/myles_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im5 {
+  background-image: url(./media/multi_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im6 {
+  background-image: url(./media/left_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im7 {
+  background-image: url(./media/gretsch_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im8 {
+  background-image: url(./media/epiphone_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im9 {
+  background-image: url(./media/butterscoth_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im10 {
+  background-image: url(./media/baritone_h.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Image Fade */
+.img-hover {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.img-hover:hover {
+  opacity: 1;
+}

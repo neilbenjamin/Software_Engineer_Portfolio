@@ -1,0 +1,60 @@
+{
+    "Books": [
+        {
+            "Comedy": [
+                {
+                    "Title": "Hackers",
+                    "Author": "Deon Mayer",
+                    "Format": "Hardcover",
+                    "Quantity": 12,
+                    "Price:": 320,
+                    "Edition": "2012"
+                }
+            ],
+            "Adventure": [
+                {
+                    "Title": "When the lion feeds",
+                    "Author": "Wilbur Smith",
+                    "Format": "Softcover",
+                    "Quantity": 32,
+                    "Price:": 180,
+                    "Edition": "1986"
+                },
+                {
+                    "Title": "The lost symbol",
+                    "Author": "Dan Brownh",
+                    "Format": "Hardcover",
+                    "Quantity": 48,
+                    "Price:": 380,
+                    "Edition": "2012"
+                }
+            ],
+            "Biography": [
+                {
+                    "Title": "Born a crime",
+                    "Author": "Trveor Noah",
+                    "Format": "Softcover",
+                    "Quantity": 45,
+                    "Price:": 325,
+                    "Edition": "2019"
+                },
+                {
+                    "Title": "Broken music",
+                    "Author": "Sting",
+                    "Format": "Softcover",
+                    "Quantity": 4,
+                    "Price:": 450,
+                    "Edition": "2015"
+                },
+                {
+                    "Title": "Six years with Al Queda",
+                    "Author": "Steven Mcgown",
+                    "Format": "Softcover",
+                    "Quantity": 7,
+                    "Price:": 380,
+                    "Edition": "2018"
+                }
+            ]
+        }
+    ]
+}

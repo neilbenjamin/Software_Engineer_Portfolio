@@ -1,0 +1,12 @@
+{
+    "editor.hover.delay": 2000,
+    "editor.accessibilitySupport": "off",
+    "json.schemas": [ ],
+    // Ruler code lengths
+    "editor.rulers": [
+        72,
+        79
+    ]
+
+}
+

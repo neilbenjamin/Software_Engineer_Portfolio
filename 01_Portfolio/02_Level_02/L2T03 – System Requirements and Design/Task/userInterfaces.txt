@@ -1,0 +1,66 @@
+Task 2 - Website Reviews
+
+Website Review 1 - https://www.pnwx.com/
+
+Pro's
+* Secure connection with SSL certificate. 
+* Indexed on Google
+* Relativley fast loading speed
+* Search field where I expected it to be
+* 404 page
+
+Con's 
+* Colour is possible the worst colour combo ever invented in the history of 
+  of the world. 
+* no Grid or Flex properties and subsequent no dynamic resizing for images 
+  text. Th etext does wrap, but it's hardly dynamic. 
+* No redirect for 404 or outbound link. Just a dead endpoint. 
+* The colour. Again...
+* The text contrast on the vomit-blue backhground makes it hard to read the 
+  text with ease. 
+* No menu on the home page.
+* No e-commerce options, but EFT and bank details....
+* The layour is not great at all. The design elements are slapped on with very 
+  little attention paid to design elemenst at all eg. all the media items are
+  different sizes, not dynamic, in ugly placeholders. 
+* So, this website was mostly created in 1997, and never updated since. 
+* No use of buttons, carousels and very little CSS.
+* No contact page, even though contacts are on teh front page, but I'm used 
+  to seeing a contact page.
+* No contact forms.
+* No POPIA or local legal compliance/consent forms. 
+* No dynamics for mobile. Menu is so small it's almosty unuseable. 
+* NO attention paid to Font or type face matching or best practises for SEO 
+  and search engone indexing options.
+* No native mobile application. Browser based mobile website. Not the same. 
+* Outdated and old. Doesn't inspire anything. 
+
+
+Website Review 2 - https://www.ucook.co.za/
+
+Pro's
+* Secure connection with SSL certificate. 
+* Indexed on Google
+* Fast loading speed
+* Search field where I expected it to be
+* 404 page
+* Policies page
+* Policies page, FAQ's & T's & Ts.
+* Login section for client data. 
+* Built in e-commerce options. Easy shoppping options.
+* Grid or Flex properties providing good resizing across all devices.
+* Great use of colour and design elements.
+* Rich with pop-ups, encouraging client interaction, moving headers, 
+  complimenting colour useage, interactiove widgets and hot-links on almost 
+  all the assets, which make it very easy to access anything. 
+* Focussed mobile design with mobile headers, menues, footers and elements 
+  specific to monbile. 
+* Typeface elements are complimentary and creative fontface useage with the 
+  correct header and font-sizes utilised for SEO crawl and indexing purposes.
+* Dedicated native mobile application on both play-store and apple store alike.
+* Fresh and modern. Inviting.
+
+Con's 
+* Nothing really. Except that I can't find any screen reading assistance for vision 
+  impaired people. 
+* I had to look a little to find the contact section. 

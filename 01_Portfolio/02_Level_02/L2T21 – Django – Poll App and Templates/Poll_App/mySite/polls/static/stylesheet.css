@@ -1,0 +1,13 @@
+body {
+    background-color: red;
+}
+
+.list-choices {
+    list-style-type: none;
+    color: rgb(189, 189, 189);
+}
+
+.list-choices a {
+    text-decoration: none;
+    color: white
+}

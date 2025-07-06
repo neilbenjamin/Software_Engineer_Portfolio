@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Benjamin CV</title>
+</head>
+<body>
+    <main>
+        <section class = "heading">
+                <h1>Neil Benjamin Resume</h1>
+                <div>
+                    <img src = "./neil_resume.webp" alt = "Profile image of man" width="500">
+                </div> 
+        </section><br>
+        <div class = "search_form">
+            <form action = "#" method = "get">
+                <div class = "input-form">
+                    <input type="search" id="search-form" name="search-form" placeholder="Search the site…">
+                    <button>Search</button>
+                </div>
+            </form>
+        </div>
+        <section class = "bio">
+            <h2>BIOGRAPHY </h2>
+            <p>Active Event & Production Manager. Just produced a bespoke production for a private client from Germany 
+                involving 620 delegates, 52 musicians and 40 crew. I've also been involved in productions outside of 
+                South Africa, specifically in Kenya. I also manage and produce the entertainment line-up for the DJs 
+                at Sun International, Grandwest Casino & Entertainment World. I am also a Software and Web Developer 
+                and completed a Full Stack Web Development Programme in 2023 and currently busy completing a Software Engineering
+                course in 2025.<br><br>
+                I now find myself with 2 passions that take up my time, namely production and event management as well as 
+                designing and building web applications, websites and thinking of solutions for everyday problems that can be 
+                fixed with technology. 
+                I also love playing the guitar and making music and find great joy in helping younger students with their musical 
+                journeys on the instrument.<br><br>
+                In my studio work as a sound designer and post production audio engineer, I won 2 SAFTA Awards for Best 
+                Sound Design for the Television Category in 2018 & 2019, created the soundtrack, mix and final mix for 
+                the 2Ocean's documentary, Run As One as well as a myriad of other Television Productions, albums and 
+                projects. Check out www.blacksheepmusic.co.za for more info on this topic.
+                For the future, I'd like to continue my studies with software engineering and learn some more languages 
+                such as Java, pHp and Flutter to assist with application development as well as gaining a better insight into 
+                database management as well as refining talent, concept and execution for the entertainment and event 
+                industry.</p>
+        </section>
+        <section class = "contact-details">
+            <h3>CONTACT DETAILS</h3>
+            <h4>Mobile</h4>
+            <p>+27 74 175 9591</p>
+            <h4>Email</h4>
+            <p>neil@digitalblend.co.za</p>
+            <h4>Web</h4>
+            <a target="_blank" href="https://www.facebook.com/neilbenjaminmusicalfwCwfyzeaBcfabp">Facebook</a><br>
+            <a target="_blank" href="https://www.instagram.com/cape_dj_company/">Instagram</a><br>
+            <a target="_blank" href="https://www.linkedin.com/in/neil-benjamin-a955562a7/">LinkedIn</a><br>
+            <a target="_blank" href="https://github.com/neilbenjamin">GitHub</a><br>
+        </section>
+        <section class = "competencies">
+            <h3>Skills & Competencies</h3>
+            <ul class = "skills-list">
+                <li>Event & Production Management</li>
+                <li>Audio Post Production Engineer</li>
+                <li>Musician, DJ and Music Producer & Guitar Tutor</li>
+                <li>Full stack Web Developer - M.E.R.N</li>
+                <li>Software Developer</li>
+                <li>Wordpress & Shopify CDN Manager</li>
+            </ul>
+        </section>
+        <section class = "education">
+            <h3>Education</h3>
+            <ul class = "education-list">
+                <li><b>Event Management</b> - UCT Online</li>
+                <li><b>Full stack Web development</b> - HyperionDev</li>
+                <li><b>Software Developer</b> - HyperionDev</li>
+                <li><b>Javascript</b> - Code Academy</li>
+                <li><b>Music Theory</b> - Musician's Institute</li>
+            </ul>
+        </section>
+        <section class = "work-experience">
+            <h3>Work Experience</h3>
+            <h4><b>Consumer Relationship Marketing - BATSA</b></h4>
+            <p>Relationships Marketing with consumers on the Lucky Strike brand through unique event activities</p>
+            <h4><b>Event & Production Management - <a target="_blank" href = "https://www.capedjco.co.za/">Cape DJ Co.</a></b></h4>
+            <p>Providing the entertainment industry in Cape Town with premium entertainers, performers, musicians and DJs</p>
+            <h4><b>Audio Post Engineer - <a target = "blank" href = "https://www.blacksheepmusic.co.za/">Black Sheep Music</a></b></h4>
+            <p>Award winning audio post-production on various TV series, advertising campaigns, corporate identities and solo music artist projects</p>
+            <h4><b>CDN Web Agency - <a target = "blank" href = "https://digitalblend.co.za/">Digital Blend</a></b></h4>
+            <p>Build, manage and maintain client's web presence using Wordpress & Shopify and M.E.R.N</p>
+        </section>
+        <section class = "input-form">
+            <h3>CONTACT</h3>
+                <form action = "index.html" method = "post">
+                    <label>First Name</label><br>
+                    <input type = "text" name = "first-name" placeholder = "Enter your first name"><br><br>
+                    <label>Surname</label><br>
+                    <input type = "text" name = "surname" placeholder = "Enter your surname"><br><br>
+                    <label>email</label><br>
+                    <input type = "email" name = "email" placeholder = "email address"><br><br>
+                    <label>Message</label><br>
+                    <textarea name = "message" rows="6" cols="50">Enter message</textarea><br><br>
+                    <button>SEND</button>
+                </form>
+            <!-- GET - Request Line for the search form
+            GET /index.html?search-form=test
+            GET Response header for the HTML example in the current HTML search form
+
+            Content-Type: text/html
+            Last-Modified: MOn, 19 May 2025 18h53:05 GMT
+
+
+            POST - Request line for contact form (This would usually have the controller endpoint
+            specified to receive the request i.e. post/api/forms/contact-form, but we don't have that
+            set-up yet, so I'm just using the index.html as the example) 
+
+            POST /index.html/
+
+            POST - Response header for actual HTML example: (Again, this is done locally, so no HTTP 
+            request are submitted)
+
+            Content-Type: Application/x-www-form-urlencoded
+            Origin: null
+
+            Below is the example of a http GET request thats live:
+
+            GET / https://www.hamiltongallery.co.za/?s=Katherine
+            Request Method
+            GET
+            Status Code
+            200 OK
+            Remote Address
+            169.239.217.28:443
+            Referrer Policy
+            strict-origin-when-cross-origin
+
+            and the GET response header:
+            authority
+            www.hamiltongallery.co.za
+            :method
+            GET
+            :path
+            /?s=Katherine
+            :scheme
+            https
+            accept
+            text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            accept-encoding
+            gzip, deflate, br, zstd
+            accept-language
+            en-ZA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+            cookie
+            _ga=GA1.1.2082792010.1726606576; sbjs_migrations=1418474375998%3D1; sbjs_first_add=fd%3D2025-05-04%2017%3A44%3A42%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.hamiltongallery.co.za%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.google.com%2F; sbjs_current=typ%3Dorganic%7C%7C%7Csrc%3Dgoogle%7C%7C%7Cmdm%3Dorganic%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29; sbjs_first=typ%3Dorganic%7C%7C%7Csrc%3Dgoogle%7C%7C%7Cmdm%3Dorganic%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29; wordpress_test_cookie=WP%20Cookie%20check; tk_ai=woo%3AJSQUO6s7JUA7TCTKMTiK%2FftJ; wp_lang=en_US; sbjs_current_add=fd%3D2025-05-15%2018%3A13%3A50%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.hamiltongallery.co.za%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.google.com%2F; _ga_EQDN3BWDSD=GS2.1.s1747333200$o46$g0$t1747333203$j0$l0$h0; sbjs_udata=vst%3D11%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F136.0.0.0%20Safari%2F537.36; sbjs_session=pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.hamiltongallery.co.za%2F; _ga_V5S5GCE002=GS2.1.s1747683394$o96$g0$t1747683394$j0$l0$h0
+            priority
+            u=0, i
+            sec-ch-ua
+            "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+            sec-ch-ua-mobile
+            ?0
+            sec-ch-ua-platform
+            "macOS"
+            user-agent
+            Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+
+            And then also a live example of a POST request line:
+
+            Request URL
+            POST /https://www.capedjco.co.za/wp-admin/admin-ajax.php
+            Request Method
+            POST
+            Status Code
+            200 OK
+            Remote Address
+            169.239.217.28:443
+            Referrer Policy
+            strict-origin-when-cross-origin
+
+            And the response header:
+
+            access-control-allow-credentials
+            true
+            access-control-allow-origin
+            https://www.capedjco.co.za
+            cache-control
+            no-cache, must-revalidate, max-age=0
+            content-type
+            application/json; charset=UTF-8
+            date
+            Mon, 19 May 2025 19:40:47 GMT
+            expires
+            Wed, 11 Jan 1984 05:00:00 GMT
+            referrer-policy
+            strict-origin-when-cross-origin
+            server
+            Apache -->
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Four numbers algorithm
+
+
+Create a field that asks a user to enter 4 numbers
+
+Once entered, create a function linked to a button.
+
+When clicked, the function will evaluate the numbers entered and sort them from lowest number to highest
+and print the ordered list to the user
+

@@ -1,0 +1,106 @@
+Deployment & Maintenance  - Research courtesy of Google.
+
+Question 1 - Different types of deployment, when it would be good to use and 
+their subsequent pro's & cons.
+
+1.1. - Direct deployment
+
+Use Case
+
+*   Smaller systems - For smaller systems where down-time doesn't present too
+    high a risk for the company or resource. 
+*   When budget doesn't allow and the new system must be integrated. 
+*   An emergency could dictate a roll-out i,e, covid
+*   Pilot or proof testing the system to evaluate outcomes.
+
+Pro's
+
+*   It's fast, less expensive, no ambiguity about what system is being used
+    quicker user adoption. 
+
+Con's
+
+*   Very risky. If the system has critical issues, it could significantly
+    jeopardize the business. Think home-affairs...
+*   It can disrupt current processes and cause chaos with people who don't 
+    to change well. 
+*   System use age and training may be lacking due to the sudden exposure of
+    a new system to users who have no idea how to use it. 
+*   Debugging a new system may prove to be a nightmare, like trying to fix
+    a car while it's moving.
+
+1.2 - Parallel deployment
+
+Use Case
+
+*   When the system and value of teh operation has significant value and needs 
+    to maintain it's integrity and resources 100% of the time with zero risk of 
+    failure. 
+*   When there is a higher risk of failure due to system complexity.
+*   When users need to be trained and transitioned systematically from the old
+    to the new system.
+
+Pro's
+
+*   Low risk of system failure as the old system will always be the fail-safe
+    until the new system is 100% approved and readY for roll-out.
+*   Allows for better better software, systems and data integration from the 
+    old system to the new with solid understanding of what each component is
+    doing. 
+*   Allows for a gradual transition of migration and allows users to follow
+    the same learning curve. 
+
+Con's
+
+*   Higher costs and resources
+*   Increase in operational challenges to maintain two systems simultaneously
+    and complex merging old and new.
+*   May take a fair amount of time and users may be reluctant to move to a new
+    system when the old one is seen to be working fine. Don't fix what....
+
+Phased - Deployment
+
+Use Case
+
+*   For larger, more complex environments where perhaps geographically, 
+    components may need to be improved or updated in certain areas or specific 
+    modules need to be integrated with the system.
+
+Pro's
+
+*   Lower risk as issues will be contained within the modular-phase section 
+    and not affect the entire system.
+*   Allows for better step-by-step integration and learning curve.
+*   Early debugging and subsequent ease of maintenance which can safe money 
+    and provide a more stable system in general. 
+
+Con's
+
+*   Similar to the the parallel deployment where the process could be lengthy,
+expensive, complex and confusing and become bloated.
+
+Scenario 1 - 2nd-hand bookshop deployment
+
+I would do a direct deployment. Mainly because they have no other system than 
+the paper based system which is still useable and at no risk while the 
+deployment is done. It's a perfect, low risk scenario direct deployment. 
+
+ Scenario 2 - Large retail chain software upgrade
+
+ This would involve re-engineering the software, which would require stringent 
+ testing procedures. I think a wise move in this instance would be to deploy 
+ the software in a phased deployment strategy, mainly to keep the current 
+ system up and running and then, in phases, introducing new modules or 
+ components to the system, such as updating the stock database, and then moving 
+ onto the POS and the customer service section. Each offers an opportunity to 
+ be phased in in isolation without affecting the system as a whole.
+
+ Scenario 3 - Fire Alarm
+
+ In this instance, considering the requirement for zero downtime, I would opt 
+ for the parallel deployment option mainly because it offers the solution 
+ of integrating the new system in unison to the current system being online and
+ 100%$ functional while we are deploying and testing the new system with no, or 
+ the least amount of risk to system failure. Once the new system has been 
+ thoroughly tested and approved, it can moved up and the old system switched 
+ off.
